@@ -1,0 +1,47 @@
+/* Home.css */
+.home-container {
+  background-color:rgb(177, 175, 175); /* Background color for the homepage */
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login-section {
+  text-align: center;
+  margin: 20px;
+  color: #ffffff; /* Text color for the login sections */
+}
+.heading {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.company-login-button,
+.customer-login-button {
+  padding: 20px 40px;
+  font-size: 1em;
+  background-color:black; /* Button background color */
+  color: #ffffff; /* Button text color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s;
+  justify-content: center;
+}
+
+.company-login-button:hover,
+.customer-login-button:hover {
+  background-color: #27ae60; /* Button background color on hover */
+}
+
+.company-login-button,
+.customer-login-button{
+  font-size: 1.3em;
+}
+
+
+
+/* Add more styles as needed */

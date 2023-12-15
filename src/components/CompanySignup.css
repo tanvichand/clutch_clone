@@ -1,0 +1,49 @@
+/* CompanySignup.css */
+
+.signup-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9; /* Light gray background */
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* h2 { */
+  /* text-align: center; */
+  /* color: #e74c3c; Red color for the heading */
+/* } */
+
+label {
+  margin-top: 10px;
+  color: #333333;
+}
+
+input {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #3498db; /* Blue color for the button */
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2980b9; /* Darker blue color on hover */
+}
+

@@ -1,0 +1,84 @@
+/* CustomerDashboard.css */
+.add-review-form {
+  margin-top: 20px;
+}
+
+.add-review-form h3 {
+  margin-bottom: 10px;
+}
+
+.add-review-form label {
+  display: block;
+  margin-top: 10px;
+  color: #333333;
+}
+
+.add-review-form input,
+.add-review-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  box-sizing: border-box; /* Ensure padding and border are included in width */
+}
+
+.add-review-form button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: black;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-review-form button:hover {
+  background-color: #27ae60;
+}
+
+.reviews-table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+  overflow-x: auto; /* Add horizontal scroll for small screens */
+}
+
+.reviews-table th,
+.reviews-table td {
+  border: 1px solid #dddddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.reviews-table th {
+  background-color: #f2f2f2;
+}
+
+.reviews-table td button {
+  margin-right: 5px;
+  background-color: #3498db;
+  color: #ffffff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.reviews-table td button:hover {
+  background-color: #2980b9;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 600px) {
+  .add-review-form input,
+  .add-review-form textarea {
+    width: calc(100% - 20px); /* Adjust width for small screens */
+  }
+
+  .reviews-table th,
+  .reviews-table td {
+    font-size: 12px; /* Decrease font size for small screens */
+  }
+}
